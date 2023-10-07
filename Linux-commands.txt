@@ -1,0 +1,30 @@
+Задание 1
+cat > Домашние_животные << EOF
+Собака
+Кошка
+Хомяк
+EOF
+cat > Вьючные_животные << EOF
+Лошадь
+Верблюд
+Осёл
+EOF
+cat Домашние_животные Вьючные_животные > Друзья_человека
+cat Друзья_человека
+mv Друзья_человека /home/user/
+
+Задание 2
+mkdir /home/user/Друзья_человека
+mv Друзья_человека /home/user/Друзья_человека
+
+Задание 3
+sudo add-apt-repository ppa:mysql/mysql-5.7
+sudo apt-get update
+sudo apt-get install mysql-server
+
+Задание 4
+sudo apt-get install -y nginx
+sudo apt-get remove -y nginx
+
+Задание 5
+history
